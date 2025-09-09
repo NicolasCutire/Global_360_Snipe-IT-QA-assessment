@@ -1,0 +1,17 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Visual Studio project and solution files
+diff=csharp
+*.cs diff=csharp
+*.csproj text eol=crlf
+*.sln text eol=crlf
+
+# Treat images as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# Ensure shell scripts keep LF
+*.sh text eol=lf
