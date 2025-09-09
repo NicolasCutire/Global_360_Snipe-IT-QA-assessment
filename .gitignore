@@ -45,3 +45,6 @@ TestResult*/
 
 # Build cache
 *.cache
+
+# Cursor editor cache
+.cursor/
